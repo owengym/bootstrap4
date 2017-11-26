@@ -1,0 +1,101 @@
+$bg-color: #333;
+$font-color: #ffffff;
+$primary-color: #008ed6;
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size:30px;
+
+body{
+    background-color: $bg-color;
+    color: $font-color;
+}
+
+.navbar{
+    border-bottom: $primary-color 3px solid;
+    opacity: 0.8;
+}
+
+#home-section{
+    background:url('../img/home1.jpeg') no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .dark-overlay{
+        background-color: $dark-overlay;
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        min-height: 700px;
+    }
+
+    .home-inner{
+        padding-top: 120px;
+    }
+
+    .card-form{
+        opacity:0.8;
+    }
+
+    .fa{
+        color:$primary-color;
+        background: #ffffff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+
+    }
+
+
+    #dark{
+        background-color: #000;
+        opacity: 0.6;
+        margin-bottom: 0px;
+        padding: 5px;
+    }
+    }
+
+    #explore-section{
+        .fa{
+            color: #fff;
+            background: #333333;
+            padding: 4px;
+            border-radius: 5px;
+            font-size: $icon-size;
+
+        }
+}
+
+#aboutSection{
+    background:url('../img/licz.jpeg') no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: $dark-overlay;
+    font-weight: 700px;
+    min-height: 350px;
+    padding: 10px;
+    font-size: 30px;
+
+    .count{
+        font-size: 70px;
+        color: $primary-color;
+    }
+    .dark-overlay{
+        background-color: $dark-overlay;
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        min-height:350px;
+    }
+}
+
+#explore-head-section{
+    padding: 20px;
+}
+#main-footer{
+    padding: 30px;
+}
