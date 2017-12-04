@@ -28,7 +28,7 @@ body {
     padding: 4px;
     border-radius: 5px;
     font-size: 30px; }
-  #home-section #dark {
+  #home-section .dark {
     background-color: #000;
     opacity: 0.6;
     margin-bottom: 0px;
@@ -49,9 +49,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.7);
-  font-weight: 700px;
-  min-height: 350px;
-  padding: 10px;
+  font-weight: 400;
   font-size: 30px; }
   #aboutSection .count {
     font-size: 70px;
@@ -62,7 +60,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 350px; }
+    height: 100%; }
 
 #explore-head-section {
   padding: 20px; }
